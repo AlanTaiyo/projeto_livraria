@@ -1,0 +1,29 @@
+.banner h1 {
+    color: #EDEDED;
+    text-shadow: 20px 20px #333333;
+    font-family: "fantasy";
+    font-size: 70px;
+}
+
+.menu h2 {
+    font-family: fantasy;
+    color: black;
+}
+
+.content h4 {
+    font-family: arial;
+    color: #333333;
+    text-shadow: 1px 1px #EDEDED;
+}
+
+.content h3 {
+    font-family: cursive;
+    color: black;
+    text-shadow: 4px 4px #EDEDED;
+}
+
+.footer h4 {
+    color: #EDEDED;
+    font-family: black;
+    text-shadow: 2px 2px black;
+}

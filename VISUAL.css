@@ -1,0 +1,82 @@
+.grid {
+    display: grid;
+}
+
+.banner {
+    background-color: orangered;
+    background-image: url("imagens/plf1.png");
+    grid-area: banner;
+    height: 180px;
+}
+
+.menu {
+    text-shadow: 4px 4px #EDEDED;
+    background-color: yellowgreen;
+    grid-area: menu;
+    height: 80px;
+}
+
+.content {
+    background-color: orange;
+    grid-area: content;
+    height: 600px;
+    background-image: url("imagens/plf2.png");
+}
+
+.sidenav {
+    background-image: url("imagens/ped2.jpg");
+    background-size: 100%;
+    background-color: darkorange;
+    grid-area: sidenav;
+}
+
+.advert {
+    background-image: url("imagens/piz1.jpg");
+    background-color: darkorange;
+    grid-area: advert;
+    height: 300px;
+}
+
+.footer {
+    background-color: orangered;
+    grid-area: footer;
+    height: 80px;
+}
+
+.grid-template-areas-4 {
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas:
+		"banner banner banner"
+        "menu menu menu"
+		"sidenav content advert"
+		"footer footer footer"
+;
+}
+
+/* Grid Item */
+.item {
+    border-style: solid;
+    border-color: #EDEDED;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    background-image: url("imagens/img1.jpg");
+    font-family: monospace;
+    color: #333;
+    margin: 0px;
+}
